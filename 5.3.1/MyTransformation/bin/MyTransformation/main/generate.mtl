@@ -1,0 +1,10 @@
+[comment encoding = UTF-8 /]
+[module generate('http://www.topcased.org/2.0/sysML', 'http://www.eclipse.org/uml2/3.0.0/UML', 'http://www.eclipse.org/papyrus/0.7.0/SysML', 'http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks')]
+
+
+[template public generateElement(aModel : Model)]
+[comment @main/]
+[file (aModel.name, false, 'UTF-8')]
+
+[/file]
+[/template]

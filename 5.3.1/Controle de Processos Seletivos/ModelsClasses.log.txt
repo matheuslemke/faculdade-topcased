@@ -1,0 +1,54 @@
+-> Errors in file : Classes/ConcursoPublico.java
+Position 66 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_qDaDEJ8SEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+Position 3582 : EVAL : Info: The operation body is not generated for Operation element .
+Position 3660 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=_BmLCcJ8WEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+Position 3724 : EVAL : Info: The operation body is not generated for Operation element .
+Position 3806 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=_l5hi8J8aEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+Position 3900 : EVAL : Info: The operation body is not generated for Operation element .
+Position 3982 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=_i9SZEJ_PEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+Position 4078 : EVAL : Info: The operation body is not generated for Operation element .
+Position 4150 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=_33Yigp_REeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+Position 4238 : EVAL : Info: The operation body is not generated for Operation element .
+
+-> Errors in file : Classes/Class1.java
+Position 57 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_-4XqUJ8TEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+
+-> Errors in file : Classes/Cargo.java
+Position 56 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_cKEG4J_REeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+
+-> Errors in file : Classes/Prova.java
+Position 56 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_oRaBQJ_TEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+
+-> Errors in file : Classes/ProvaEscrita.java
+Position 63 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_IdjGsJ_WEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+
+-> Errors in file : Classes/ProvaPratica.java
+Position 63 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_pQCFUJ_WEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+
+-> Errors in file : Classes/Questao.java
+Position 58 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_yH8hMJ_WEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+
+-> Errors in file : Classes/LocalidadeVagas.java
+Position 66 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_-Bl90J_YEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+
+-> Errors in file : Classes/SalaProva.java
+Position 60 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_46Ol8J_ZEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+
+-> Errors in file : Classes/LocalRealizacaoProva.java
+Position 71 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_7ztPUJ_rEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+
+-> Errors in file : Classes/Horario.java
+Position 58 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_YhfpcJ_sEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+
+-> Errors in file : Classes/Data.java
+Position 55 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_zTwyEJ_sEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+
+-> Errors in file : Classes/InscricaoCandidato.java
+Position 69 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_AQ_BAJ_uEeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+
+-> Errors in file : Classes/GabaritoCandidato.java
+Position 68 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_sNc9EJ_0EeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+
+-> Errors in file : Classes/Recurso.java
+Position 58 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_2fuzQJ_2EeS4lKgHfRbzDA file=/resource/Controle%20de%20Processos%20Seletivos/Models/Classes.uml
+

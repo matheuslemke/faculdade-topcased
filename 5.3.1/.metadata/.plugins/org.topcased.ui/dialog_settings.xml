@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.topcased.ui.refactoring.wizards.RenameModelFileInputPage">
+		<item value="0" key="REFERENCES_TYPE_UPDATE"/>
+	</section>
+</section>

@@ -1,0 +1,98 @@
+-> Errors in file : Classes/ConcursoPublico.java
+Position 66 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_qDaDEJ8SEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+Position 3581 : EVAL : Info: The operation body is not generated for Operation element .
+Position 3659 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=_BmLCcJ8WEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+Position 3723 : EVAL : Info: The operation body is not generated for Operation element .
+Position 3805 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=_l5hi8J8aEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+Position 3899 : EVAL : Info: The operation body is not generated for Operation element .
+Position 3981 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=_i9SZEJ_PEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+Position 4077 : EVAL : Info: The operation body is not generated for Operation element .
+Position 4149 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=_33Yigp_REeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+Position 4237 : EVAL : Info: The operation body is not generated for Operation element .
+
+-> Errors in file : Classes/Class1.java
+Position 57 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_-4XqUJ8TEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/Cargo.java
+Position 56 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_cKEG4J_REeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/Prova.java
+Position 56 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_oRaBQJ_TEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/ProvaEscrita.java
+Position 63 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_IdjGsJ_WEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/ProvaPratica.java
+Position 63 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_pQCFUJ_WEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/Questao.java
+Position 58 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_yH8hMJ_WEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/LocalidadeVagas.java
+Position 66 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_-Bl90J_YEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/SalaProva.java
+Position 60 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_46Ol8J_ZEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/LocalRealizacaoProva.java
+Position 71 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_7ztPUJ_rEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/Horario.java
+Position 58 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_YhfpcJ_sEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/Data.java
+Position 55 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_zTwyEJ_sEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/InscricaoCandidato.java
+Position 69 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_AQ_BAJ_uEeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/GabaritoCandidato.java
+Position 68 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_sNc9EJ_0EeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/Recurso.java
+Position 58 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_2fuzQJ_2EeS4lKgHfRbzDA file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/RelogioCentral.java
+Position 65 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_MtKTkN1UEeSb1octAmLBOg file=/resource/Example/Models/Classes.uml
+Position 475 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/type.mt, at line : 68, at column : 6, for object : fragment=_9mYPzt1VEeSb1octAmLBOg file=/resource/Example/Models/Classes.uml
+Position 2630 : EVAL : Info: The operation body is not generated for Operation element .
+Position 2710 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=_5_YwYt1UEeSb1octAmLBOg file=/resource/Example/Models/Classes.uml
+Position 2776 : EVAL : Info: The operation body is not generated for Operation element .
+Position 2856 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=_BdZZ0N30EeSoGbVLZRKkBg file=/resource/Example/Models/Classes.uml
+Position 2955 : EVAL : Info: The operation body is not generated for Operation element .
+Position 3031 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=_8AlEct32EeSoGbVLZRKkBg file=/resource/Example/Models/Classes.uml
+Position 3174 : EVAL : Info: The operation body is not generated for Operation element .
+Position 3248 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=_cQycct33EeSoGbVLZRKkBg file=/resource/Example/Models/Classes.uml
+Position 3306 : EVAL : Info: The operation body is not generated for Operation element .
+
+-> Errors in file : Classes/RelogioDigital.java
+Position 65 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_Q43pmN1VEeSb1octAmLBOg file=/resource/Example/Models/Classes.uml
+Position 437 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/type.mt, at line : 68, at column : 6, for object : fragment=_vh_AVN33EeSoGbVLZRKkBg file=/resource/Example/Models/Classes.uml
+Position 1793 : EVAL : Info: The operation body is not generated for Operation element .
+
+-> Errors in file : Classes/RelogioAnalogico.java
+Position 67 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_TiAPCN1VEeSb1octAmLBOg file=/resource/Example/Models/Classes.uml
+Position 445 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/type.mt, at line : 68, at column : 6, for object : fragment=_wQLjFN33EeSoGbVLZRKkBg file=/resource/Example/Models/Classes.uml
+Position 1809 : EVAL : Info: The operation body is not generated for Operation element .
+
+-> Errors in file : Classes/ObservadorConcreto.java
+Position 69 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_-6a1EN1WEeSb1octAmLBOg file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/ObservadorConcreto.java
+Position 69 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_6qDpyN1vEeSb1octAmLBOg file=/resource/Example/Models/Classes.uml
+
+-> Errors in file : Classes/Relogio.java
+Position 58 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_e7CHEN31EeSoGbVLZRKkBg file=/resource/Example/Models/Classes.uml
+Position 366 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/type.mt, at line : 68, at column : 6, for object : fragment=_n3oOpN31EeSoGbVLZRKkBg file=/resource/Example/Models/Classes.uml
+Position 1953 : EVAL : Info: The operation body is not generated for Operation element .
+Position 2029 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=_THb3QN1zEeSb1octAmLBOg file=/resource/Example/Models/Classes.uml
+Position 2148 : EVAL : Info: The operation body is not generated for Operation element .
+Position 2224 : EVAL : Empty feature evaluation, in file : /org.acceleo.module.pim.uml21.gen.java/org/acceleo/module/pim/uml21/gen/java/validator/lib.mt, at line : 20, at column : 44, for object : fragment=__jSFsN1zEeSb1octAmLBOg file=/resource/Example/Models/Classes.uml
+Position 2313 : EVAL : Info: The operation body is not generated for Operation element .
+
+
+-> Errors in file : Classes/Observador.java
+Position 61 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/common.mt, at line : 110, at column : 29, for object : fragment=_34Mk8N1VEeSb1octAmLBOg file=/resource/Example/Models/Classes.uml
+Position 270 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/type.mt, at line : 68, at column : 6, for object : fragment=_9mYPzt1VEeSb1octAmLBOg file=/resource/Example/Models/Classes.uml
+Position 307 : EVAL : Empty feature evaluation, in file : /org.topcased.uml2rtsj.autojava.generator/org/topcased/uml2rtsj/autojava/generator/lib/type.mt, at line : 68, at column : 6, for object : fragment=_n3oOpN31EeSoGbVLZRKkBg file=/resource/Example/Models/Classes.uml
+

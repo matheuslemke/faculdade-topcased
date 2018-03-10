@@ -1,0 +1,5 @@
+createChildMenuId=org.topcased.modeler.uml.menu.umlEditorMenu
+deleteActionConfirm=true
+deleteModelActionConfirm=true
+eclipse.preferences.version=1
+org.topcased.modeler.uml.editor.UMLEditor.SnapToGeometry.isEnabled=true

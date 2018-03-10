@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="Classes">
+    <packagedElement xmi:type="uml:Class" xmi:id="_qDaDEJ8SEeS4lKgHfRbzDA" name="ConcursoPublico">
+      <ownedAttribute xmi:id="_EAGOkJ8TEeS4lKgHfRbzDA" name="nomeEmpresa" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_VCPrgJ8UEeS4lKgHfRbzDA" name="Property1"/>
+      <ownedAttribute xmi:id="__7nTMJ8XEeS4lKgHfRbzDA" name="numeroEdital" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BMJG8J8YEeS4lKgHfRbzDA" name="inicioInscricao" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_DJKNQJ8YEeS4lKgHfRbzDA" name="fimInscricao" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_FA6ZEJ8YEeS4lKgHfRbzDA" name="percentualMinimoAcertos" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDouble"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xmxCoJ8ZEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xmdgoJ8ZEeS4lKgHfRbzDA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Jb9oEJ8YEeS4lKgHfRbzDA" name="status" visibility="private" type="_LOPzIJ8aEeS4lKgHfRbzDA"/>
+      <ownedAttribute xmi:id="_yxxSoJ8YEeS4lKgHfRbzDA" name="Property2" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_BmLCcJ8WEeS4lKgHfRbzDA" name="Operation1"/>
+      <ownedOperation xmi:id="_l5hi8J8aEeS4lKgHfRbzDA" name="Operation2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_9a4YoJ8TEeS4lKgHfRbzDA" name="PrimitiveType1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-4XqUJ8TEeS4lKgHfRbzDA" name="Class1"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_AsTGEJ8UEeS4lKgHfRbzDA" name="DataType1"/>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_UAmBQJ8UEeS4lKgHfRbzDA" name="InstanceSpecification1"/>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_C-v-8J8WEeS4lKgHfRbzDA" name="InstanceSpecification2"/>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_LOPzIJ8aEeS4lKgHfRbzDA" name="StatusConcurso">
+      <ownedLiteral xmi:id="_UzyxEJ8aEeS4lKgHfRbzDA" name="aguardandoInscricoes"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

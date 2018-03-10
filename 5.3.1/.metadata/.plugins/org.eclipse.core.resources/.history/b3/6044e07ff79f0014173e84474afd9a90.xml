@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="Classes">
+    <packagedElement xmi:type="uml:Class" xmi:id="_qDaDEJ8SEeS4lKgHfRbzDA" name="ConcursoPublico">
+      <ownedAttribute xmi:id="_EAGOkJ8TEeS4lKgHfRbzDA" name="nomeEmpresa" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_VCPrgJ8UEeS4lKgHfRbzDA" name="Property1"/>
+      <ownedAttribute xmi:id="__7nTMJ8XEeS4lKgHfRbzDA" name="numeroEdital" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BMJG8J8YEeS4lKgHfRbzDA" name="inicioInscricao" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_DJKNQJ8YEeS4lKgHfRbzDA" name="fimInscricao" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_FA6ZEJ8YEeS4lKgHfRbzDA" name="percentualMinimoAcertos" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDouble"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xmxCoJ8ZEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xmdgoJ8ZEeS4lKgHfRbzDA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Jb9oEJ8YEeS4lKgHfRbzDA" name="status" visibility="private" type="_LOPzIJ8aEeS4lKgHfRbzDA"/>
+      <ownedAttribute xmi:id="_yxxSoJ8YEeS4lKgHfRbzDA" name="Property2" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_BmLCcJ8WEeS4lKgHfRbzDA" name="Operation1"/>
+      <ownedOperation xmi:id="_l5hi8J8aEeS4lKgHfRbzDA" name=""/>
+      <ownedOperation xmi:id="_i9SZEJ_PEeS4lKgHfRbzDA" name="Operation3"/>
+      <ownedOperation xmi:id="_33Yigp_REeS4lKgHfRbzDA" name="Operation2"/>
+      <ownedOperation xmi:id="_C7-RUp_SEeS4lKgHfRbzDA" name="Construtor"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_9a4YoJ8TEeS4lKgHfRbzDA" name="PrimitiveType1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-4XqUJ8TEeS4lKgHfRbzDA" name="Class1"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_AsTGEJ8UEeS4lKgHfRbzDA" name="DataType1"/>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_UAmBQJ8UEeS4lKgHfRbzDA" name="InstanceSpecification1"/>
+    <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_C-v-8J8WEeS4lKgHfRbzDA" name="InstanceSpecification2"/>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_LOPzIJ8aEeS4lKgHfRbzDA" name="StatusConcurso">
+      <ownedLiteral xmi:id="_UzyxEJ8aEeS4lKgHfRbzDA" name="aguardandoInscricoes"/>
+      <ownedLiteral xmi:id="_3W0Bgp_QEeS4lKgHfRbzDA" name="aguardandoDefinicaoLocaisProva"/>
+      <ownedLiteral xmi:id="_Bw7P8p_REeS4lKgHfRbzDA" name="aguardandoRealizacaoProva"/>
+      <ownedLiteral xmi:id="_FqY00p_REeS4lKgHfRbzDA" name="aguardandoGabaritoOficial"/>
+      <ownedLiteral xmi:id="_IfTMcp_REeS4lKgHfRbzDA" name="aguardandoGabaritoCandidatos"/>
+      <ownedLiteral xmi:id="_NROqYp_REeS4lKgHfRbzDA" name="aguardandoRecursos"/>
+      <ownedLiteral xmi:id="_QAoP4p_REeS4lKgHfRbzDA" name="aguardandoCorrecaoPreliminar"/>
+      <ownedLiteral xmi:id="_S2SOYp_REeS4lKgHfRbzDA" name="aguardandoResultadoRecursos"/>
+      <ownedLiteral xmi:id="_V90nEJ_REeS4lKgHfRbzDA" name="aguardandoResultadoFinal"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_cKEG4J_REeS4lKgHfRbzDA" name="Cargo">
+      <ownedAttribute xmi:id="_00UaIp_REeS4lKgHfRbzDA" name="nome" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_qZ3GUAnxEdy9WM11hWri2g"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TK7MMp_SEeS4lKgHfRbzDA" name="taxaInscricao" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDouble"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_fNRuUp_TEeS4lKgHfRbzDA" name="totalPontos" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDouble"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_hMrsMJ_REeS4lKgHfRbzDA" name="" memberEnd="_hMrsMZ_REeS4lKgHfRbzDA _hMrsNJ_REeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_hMrsMZ_REeS4lKgHfRbzDA" name="" type="_qDaDEJ8SEeS4lKgHfRbzDA" association="_hMrsMJ_REeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hMrsMp_REeS4lKgHfRbzDA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hMrsM5_REeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_hMrsNJ_REeS4lKgHfRbzDA" name="" type="_cKEG4J_REeS4lKgHfRbzDA" aggregation="shared" association="_hMrsMJ_REeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hMrsNZ_REeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hMrsNp_REeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_vn28UJ_REeS4lKgHfRbzDA" name="A_&lt;concursoPublico>_&lt;cargo>" memberEnd="_vn28UZ_REeS4lKgHfRbzDA _vn28VJ_REeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_vn28UZ_REeS4lKgHfRbzDA" name="concursoPublico" type="_qDaDEJ8SEeS4lKgHfRbzDA" association="_vn28UJ_REeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vn28Up_REeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vn28U5_REeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_vn28VJ_REeS4lKgHfRbzDA" name="cargo" type="_cKEG4J_REeS4lKgHfRbzDA" isUnique="false" aggregation="shared" association="_vn28UJ_REeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vn28VZ_REeS4lKgHfRbzDA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vn28Vp_REeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_oRaBQJ_TEeS4lKgHfRbzDA" name="Prova" isAbstract="true">
+      <ownedAttribute xmi:id="_24fmcp_TEeS4lKgHfRbzDA" name="areaConhecimento" visibility="private"/>
+      <ownedAttribute xmi:id="_uAP98p_UEeS4lKgHfRbzDA" name="pesoProva" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDouble"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_xzmTwp_UEeS4lKgHfRbzDA" name="dataRealizacao" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MKGtcp_VEeS4lKgHfRbzDA" name="isCorrigida" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_98nwgJ_TEeS4lKgHfRbzDA" name="AreaConhecimento">
+      <ownedLiteral xmi:id="_Bryw8p_UEeS4lKgHfRbzDA" name="portugues"/>
+      <ownedLiteral xmi:id="_Dc5iMp_UEeS4lKgHfRbzDA" name="matematica"/>
+      <ownedLiteral xmi:id="_FiRTQp_UEeS4lKgHfRbzDA" name="historia"/>
+      <ownedLiteral xmi:id="_Knb2Qp_UEeS4lKgHfRbzDA" name="ingles"/>
+      <ownedLiteral xmi:id="_nT9sIp_UEeS4lKgHfRbzDA" name="EnumerationLiteral1">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_pmJxMJ_UEeS4lKgHfRbzDA"/>
+      </ownedLiteral>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_SkpvAJ_VEeS4lKgHfRbzDA" name="classificatoria" memberEnd="_SkpvAZ_VEeS4lKgHfRbzDA _SkpvBJ_VEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_SkpvAZ_VEeS4lKgHfRbzDA" name="" type="_cKEG4J_REeS4lKgHfRbzDA" isUnique="false" association="_SkpvAJ_VEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SkpvAp_VEeS4lKgHfRbzDA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SkpvA5_VEeS4lKgHfRbzDA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_SkpvBJ_VEeS4lKgHfRbzDA" name="" type="_oRaBQJ_TEeS4lKgHfRbzDA" isUnique="false" aggregation="shared" association="_SkpvAJ_VEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SkpvBZ_VEeS4lKgHfRbzDA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SkpvBp_VEeS4lKgHfRbzDA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_w9ptwJ_VEeS4lKgHfRbzDA" name="eliminatoria" memberEnd="_w9ptwZ_VEeS4lKgHfRbzDA _w9ptxJ_VEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_w9ptwZ_VEeS4lKgHfRbzDA" name="" type="_cKEG4J_REeS4lKgHfRbzDA" isUnique="false" association="_w9ptwJ_VEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w9ptwp_VEeS4lKgHfRbzDA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w9ptw5_VEeS4lKgHfRbzDA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_w9ptxJ_VEeS4lKgHfRbzDA" name="" type="_oRaBQJ_TEeS4lKgHfRbzDA" isUnique="false" aggregation="shared" association="_w9ptwJ_VEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w9ptxZ_VEeS4lKgHfRbzDA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w9ptxp_VEeS4lKgHfRbzDA"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="__WbxMJ_VEeS4lKgHfRbzDA" name="desempate" memberEnd="__WbxMZ_VEeS4lKgHfRbzDA __WbxNJ_VEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="__WbxMZ_VEeS4lKgHfRbzDA" name="" type="_cKEG4J_REeS4lKgHfRbzDA" isUnique="false" association="__WbxMJ_VEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__WbxMp_VEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__WbxM5_VEeS4lKgHfRbzDA"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="__WbxNJ_VEeS4lKgHfRbzDA" name="" type="_oRaBQJ_TEeS4lKgHfRbzDA" association="__WbxMJ_VEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__WbxNZ_VEeS4lKgHfRbzDA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__WbxNp_VEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IdjGsJ_WEeS4lKgHfRbzDA" name="ProvaEscrita">
+      <generalization xmi:id="_r1TzkJ_YEeS4lKgHfRbzDA" general="_oRaBQJ_TEeS4lKgHfRbzDA"/>
+      <ownedAttribute xmi:id="_L1B_4p_WEeS4lKgHfRbzDA" name="numeroInicialQuestao" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_SREPMJ_WEeS4lKgHfRbzDA" name="numeroFinalQuestao" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_XZDcsp_WEeS4lKgHfRbzDA" name="tipo" visibility="private" type="_dcNR8J_WEeS4lKgHfRbzDA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_dcNR8J_WEeS4lKgHfRbzDA" name="TipoProvaEscrita">
+      <ownedLiteral xmi:id="_eeE-op_WEeS4lKgHfRbzDA" name="objetiva"/>
+      <ownedLiteral xmi:id="_fwx8op_WEeS4lKgHfRbzDA" name="descritiva"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pQCFUJ_WEeS4lKgHfRbzDA" name="ProvaPratica">
+      <generalization xmi:id="_siwvcJ_YEeS4lKgHfRbzDA" general="_oRaBQJ_TEeS4lKgHfRbzDA"/>
+      <ownedAttribute xmi:id="_rbqPYp_WEeS4lKgHfRbzDA" name="totalPontos" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EDouble"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yH8hMJ_WEeS4lKgHfRbzDA" name="Questao">
+      <ownedAttribute xmi:id="_yDtE8p_XEeS4lKgHfRbzDA" name="numeroQuestao" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_4pbbwp_XEeS4lKgHfRbzDA" name="gabaritoOficial" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_METAMODELS/Ecore.metamodel.uml#EChar"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_dEOk4p_YEeS4lKgHfRbzDA" name="isAnuladoPorRecurso" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_lJ65op_YEeS4lKgHfRbzDA" name="isAlteradoPorRecurso" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_0Mt1UJ_WEeS4lKgHfRbzDA" name="A_&lt;provaEscrita>_&lt;questao>" memberEnd="_0Mt1UZ_WEeS4lKgHfRbzDA _0Mt1VJ_WEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_0Mt1UZ_WEeS4lKgHfRbzDA" name="provaEscrita" type="_IdjGsJ_WEeS4lKgHfRbzDA" isUnique="false" association="_0Mt1UJ_WEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0Mt1Up_WEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0Mt1U5_WEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_0Mt1VJ_WEeS4lKgHfRbzDA" name="questao" type="_yH8hMJ_WEeS4lKgHfRbzDA" isUnique="false" aggregation="shared" association="_0Mt1UJ_WEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0Mt1VZ_WEeS4lKgHfRbzDA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0Mt1Vp_WEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-Bl90J_YEeS4lKgHfRbzDA" name="LocalidadeVagas">
+      <ownedAttribute xmi:id="_DSrc8p_ZEeS4lKgHfRbzDA" name="cidade" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Itlmcp_ZEeS4lKgHfRbzDA" name="uf" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Qy7V4p_ZEeS4lKgHfRbzDA" name="qtdTotal" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_VTZ3cp_ZEeS4lKgHfRbzDA" name="qtdVagasDeficiente" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mvPcMJ_ZEeS4lKgHfRbzDA" name="exercicio" memberEnd="_mvPcMZ_ZEeS4lKgHfRbzDA _mvPcNJ_ZEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_mvPcMZ_ZEeS4lKgHfRbzDA" name="" type="_cKEG4J_REeS4lKgHfRbzDA" isUnique="false" association="_mvPcMJ_ZEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mvPcMp_ZEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mvPcM5_ZEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_mvPcNJ_ZEeS4lKgHfRbzDA" name="" type="_-Bl90J_YEeS4lKgHfRbzDA" isUnique="false" association="_mvPcMJ_ZEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mvPcNZ_ZEeS4lKgHfRbzDA" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mvPcNp_ZEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_46Ol8J_ZEeS4lKgHfRbzDA" name="SalaProva">
+      <ownedAttribute xmi:id="_6r9pUp_ZEeS4lKgHfRbzDA" name="numeroSala" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_CaFLkp_aEeS4lKgHfRbzDA" name="limiteCandidatos"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

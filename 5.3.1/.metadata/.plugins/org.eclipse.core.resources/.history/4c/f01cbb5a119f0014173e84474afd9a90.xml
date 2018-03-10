@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="Casos de Uso">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_bQI4wJ5yEeS4lKgHfRbzDA" name="Departamento de Seleção"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sOTqEJ5yEeS4lKgHfRbzDA" name="Cadastrar concurso"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_uXs_gJ5yEeS4lKgHfRbzDA" name="" memberEnd="_uXs_gZ5yEeS4lKgHfRbzDA _uXs_hJ5yEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_uXs_gZ5yEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_uXs_gJ5yEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uXs_gp5yEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uXs_g55yEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_uXs_hJ5yEeS4lKgHfRbzDA" name="cadastrar concurso" type="_sOTqEJ5yEeS4lKgHfRbzDA" association="_uXs_gJ5yEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uXs_hZ5yEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uXs_hp5yEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_65ByEp5yEeS4lKgHfRbzDA" name="Cadastrar inscrição de candidato"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-_U5EJ5yEeS4lKgHfRbzDA" name="" memberEnd="_-_U5EZ5yEeS4lKgHfRbzDA _-_U5FJ5yEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_-_U5EZ5yEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_-_U5EJ5yEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-_U5Ep5yEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-_U5E55yEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_-_U5FJ5yEeS4lKgHfRbzDA" name="cadastrar inscrição de candidato" type="_65ByEp5yEeS4lKgHfRbzDA" association="_-_U5EJ5yEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-_U5FZ5yEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-_U5Fp5yEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BGrnIJ5zEeS4lKgHfRbzDA" name="Registrar/Alterar locais de realização de provas"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_H2mbwJ5zEeS4lKgHfRbzDA" name="" memberEnd="_H2mbwZ5zEeS4lKgHfRbzDA _H2mbxJ5zEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_H2mbwZ5zEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_H2mbwJ5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H2mbwp5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H2mbw55zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_H2mbxJ5zEeS4lKgHfRbzDA" name="registrar/Alterar locais de realização de provas" type="_BGrnIJ5zEeS4lKgHfRbzDA" association="_H2mbwJ5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H2mbxZ5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H2mbxp5zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_N3TZ8J5zEeS4lKgHfRbzDA" name="Alocar candidatos aos locais de prova"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TPsa8J5zEeS4lKgHfRbzDA" name="" memberEnd="_TPsa8Z5zEeS4lKgHfRbzDA _TPsa9J5zEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_TPsa8Z5zEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_TPsa8J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TPsa8p5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TPsa855zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_TPsa9J5zEeS4lKgHfRbzDA" name="alocar candidatos aos locais de prova" type="_N3TZ8J5zEeS4lKgHfRbzDA" association="_TPsa8J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TPsa9Z5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TPsa9p5zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_W_BMYJ5zEeS4lKgHfRbzDA" name="Lançar frequência das provas"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZjIH4J5zEeS4lKgHfRbzDA" name="" memberEnd="_ZjIH4Z5zEeS4lKgHfRbzDA _ZjIH5J5zEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_ZjIH4Z5zEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_ZjIH4J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZjIH4p5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZjIH455zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_ZjIH5J5zEeS4lKgHfRbzDA" name="lançar frequência das provas" type="_W_BMYJ5zEeS4lKgHfRbzDA" association="_ZjIH4J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZjIH5Z5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZjIH5p5zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_beJqIJ5zEeS4lKgHfRbzDA" name="Retificar inscrição do candidato"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_uOgx0J5zEeS4lKgHfRbzDA" name="" memberEnd="_uOgx0Z5zEeS4lKgHfRbzDA _uOgx1J5zEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_uOgx0Z5zEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_uOgx0J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uOgx0p5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uOgx055zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_uOgx1J5zEeS4lKgHfRbzDA" name="retificar inscrição do candidato" type="_beJqIJ5zEeS4lKgHfRbzDA" association="_uOgx0J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uOgx1Z5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uOgx1p5zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3IrQcJ5zEeS4lKgHfRbzDA" name="Cadastrar gabarito oficial">
+      <extensionPoint xmi:id="_QkBpcJ50EeS4lKgHfRbzDA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:id="_Ss_hEJ50EeS4lKgHfRbzDA" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_9iSd4J5zEeS4lKgHfRbzDA" name="" memberEnd="_9iSd4Z5zEeS4lKgHfRbzDA _9iSd5J5zEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_9iSd4Z5zEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_9iSd4J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9iSd4p5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9iSd455zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_9iSd5J5zEeS4lKgHfRbzDA" name="cadastrar gabarito oficial" type="_3IrQcJ5zEeS4lKgHfRbzDA" association="_9iSd4J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9iSd5Z5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9iSd5p5zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_AoKCoJ50EeS4lKgHfRbzDA" name="Departamento de Resultados"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_JMA6EJ50EeS4lKgHfRbzDA" name="Digitação de gabarito oficial">
+      <extend xmi:id="_QlqoMJ50EeS4lKgHfRbzDA" name="" visibility="public" extendedCase="_3IrQcJ5zEeS4lKgHfRbzDA" extensionLocation="_QkBpcJ50EeS4lKgHfRbzDA"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="idModel" name="CadastrarConcursoModel">
+  <packagedElement xmi:type="uml:Package" xmi:id="idPackage" name="CadastrarConcursoPackage">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="idCollaboration" name="CadastrarConcursoCollaboration">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="idInteraction" name="CadastrarConcursoInteraction" covered="_aceS4KCxEeSR8vD3RcPNxA">
+        <ownedAttribute xmi:id="_rdsJcaC3EeSR8vD3RcPNxA" name="Property1" type="_rdsJcKC3EeSR8vD3RcPNxA"/>
+        <ownedAttribute xmi:id="_01pXUKC3EeSR8vD3RcPNxA" name="Property2" type="_01owQKC3EeSR8vD3RcPNxA"/>
+        <ownedAttribute xmi:id="_2XAcYKC3EeSR8vD3RcPNxA" name="Property3" type="_2W_1UKC3EeSR8vD3RcPNxA"/>
+        <ownedConnector xmi:id="_reL4sKC3EeSR8vD3RcPNxA" name="Connector1">
+          <end xmi:id="_reQKIKC3EeSR8vD3RcPNxA" role="_rdsJcaC3EeSR8vD3RcPNxA"/>
+          <end xmi:id="_01pXUaC3EeSR8vD3RcPNxA" role="_01pXUKC3EeSR8vD3RcPNxA"/>
+          <end xmi:id="_2XAcYaC3EeSR8vD3RcPNxA" role="_2XAcYKC3EeSR8vD3RcPNxA"/>
+        </ownedConnector>
+        <lifeline xmi:id="_aceS4KCxEeSR8vD3RcPNxA" name="" represents="_01pXUKC3EeSR8vD3RcPNxA" coveredBy="_PcDjUKC6EeSR8vD3RcPNxA _ulY3AKCzEeSR8vD3RcPNxA idInteraction"/>
+        <lifeline xmi:id="_qllZkKCzEeSR8vD3RcPNxA" name="" represents="_2XAcYKC3EeSR8vD3RcPNxA" coveredBy="_PcEKYKC6EeSR8vD3RcPNxA _4BJm0KCzEeSR8vD3RcPNxA"/>
+        <lifeline xmi:id="_uLqLkKC3EeSR8vD3RcPNxA" name="" represents="_rdsJcaC3EeSR8vD3RcPNxA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PcDjUKC6EeSR8vD3RcPNxA" name="MessageOccurrenceSpecification1" covered="_aceS4KCxEeSR8vD3RcPNxA" event="_PcExcKC6EeSR8vD3RcPNxA" message="_PcExcaC6EeSR8vD3RcPNxA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PcEKYKC6EeSR8vD3RcPNxA" name="MessageOccurrenceSpecification2" covered="_qllZkKCzEeSR8vD3RcPNxA" event="_PcExcKC6EeSR8vD3RcPNxA" message="_PcExcaC6EeSR8vD3RcPNxA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ulY3AKCzEeSR8vD3RcPNxA" name="BehaviorExecutionSpecification1" covered="_aceS4KCxEeSR8vD3RcPNxA" start="_PcDjUKC6EeSR8vD3RcPNxA" finish="_PcDjUKC6EeSR8vD3RcPNxA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_4BJm0KCzEeSR8vD3RcPNxA" name="BehaviorExecutionSpecification2" covered="_qllZkKCzEeSR8vD3RcPNxA" start="_PcEKYKC6EeSR8vD3RcPNxA" finish="_PcEKYKC6EeSR8vD3RcPNxA"/>
+        <message xmi:id="_PcExcaC6EeSR8vD3RcPNxA" name="Message1" receiveEvent="_PcEKYKC6EeSR8vD3RcPNxA" sendEvent="_PcDjUKC6EeSR8vD3RcPNxA"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_C-kZ0KC4EeSR8vD3RcPNxA" name="CallEvent1"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_PcExcKC6EeSR8vD3RcPNxA" name="CallEvent2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_rdsJcKC3EeSR8vD3RcPNxA" name="Depto. de Seleção"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_01owQKC3EeSR8vD3RcPNxA" name="TelaCadastro"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2W_1UKC3EeSR8vD3RcPNxA" name="ConcursoPublico"/>
+</uml:Model>

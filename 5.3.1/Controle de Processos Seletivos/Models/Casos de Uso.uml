@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="Casos de Uso">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_bQI4wJ5yEeS4lKgHfRbzDA" name="Departamento de Seleção"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sOTqEJ5yEeS4lKgHfRbzDA" name="Cadastrar concurso"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_uXs_gJ5yEeS4lKgHfRbzDA" name="" memberEnd="_uXs_gZ5yEeS4lKgHfRbzDA _uXs_hJ5yEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_uXs_gZ5yEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_uXs_gJ5yEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uXs_gp5yEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uXs_g55yEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_uXs_hJ5yEeS4lKgHfRbzDA" name="cadastrar concurso" type="_sOTqEJ5yEeS4lKgHfRbzDA" association="_uXs_gJ5yEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uXs_hZ5yEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uXs_hp5yEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_65ByEp5yEeS4lKgHfRbzDA" name="Cadastrar inscrição de candidato"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-_U5EJ5yEeS4lKgHfRbzDA" name="" memberEnd="_-_U5EZ5yEeS4lKgHfRbzDA _-_U5FJ5yEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_-_U5EZ5yEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_-_U5EJ5yEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-_U5Ep5yEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-_U5E55yEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_-_U5FJ5yEeS4lKgHfRbzDA" name="cadastrar inscrição de candidato" type="_65ByEp5yEeS4lKgHfRbzDA" association="_-_U5EJ5yEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-_U5FZ5yEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-_U5Fp5yEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BGrnIJ5zEeS4lKgHfRbzDA" name="Registrar/Alterar locais de realização de provas"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_H2mbwJ5zEeS4lKgHfRbzDA" name="" memberEnd="_H2mbwZ5zEeS4lKgHfRbzDA _H2mbxJ5zEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_H2mbwZ5zEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_H2mbwJ5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H2mbwp5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H2mbw55zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_H2mbxJ5zEeS4lKgHfRbzDA" name="registrar/Alterar locais de realização de provas" type="_BGrnIJ5zEeS4lKgHfRbzDA" association="_H2mbwJ5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H2mbxZ5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H2mbxp5zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_N3TZ8J5zEeS4lKgHfRbzDA" name="Alocar candidatos aos locais de prova"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TPsa8J5zEeS4lKgHfRbzDA" name="" memberEnd="_TPsa8Z5zEeS4lKgHfRbzDA _TPsa9J5zEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_TPsa8Z5zEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_TPsa8J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TPsa8p5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TPsa855zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_TPsa9J5zEeS4lKgHfRbzDA" name="alocar candidatos aos locais de prova" type="_N3TZ8J5zEeS4lKgHfRbzDA" association="_TPsa8J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TPsa9Z5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TPsa9p5zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_W_BMYJ5zEeS4lKgHfRbzDA" name="Lançar frequência das provas"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZjIH4J5zEeS4lKgHfRbzDA" name="" memberEnd="_ZjIH4Z5zEeS4lKgHfRbzDA _ZjIH5J5zEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_ZjIH4Z5zEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_ZjIH4J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZjIH4p5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZjIH455zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_ZjIH5J5zEeS4lKgHfRbzDA" name="lançar frequência das provas" type="_W_BMYJ5zEeS4lKgHfRbzDA" association="_ZjIH4J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZjIH5Z5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZjIH5p5zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_beJqIJ5zEeS4lKgHfRbzDA" name="Retificar inscrição do candidato"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_uOgx0J5zEeS4lKgHfRbzDA" name="" memberEnd="_uOgx0Z5zEeS4lKgHfRbzDA _uOgx1J5zEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_uOgx0Z5zEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_uOgx0J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uOgx0p5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uOgx055zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_uOgx1J5zEeS4lKgHfRbzDA" name="retificar inscrição do candidato" type="_beJqIJ5zEeS4lKgHfRbzDA" association="_uOgx0J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uOgx1Z5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uOgx1p5zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3IrQcJ5zEeS4lKgHfRbzDA" name="Cadastrar gabarito oficial">
+      <extensionPoint xmi:id="_QkBpcJ50EeS4lKgHfRbzDA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:id="_Ss_hEJ50EeS4lKgHfRbzDA" name="ExtensionPoint2"/>
+      <extensionPoint xmi:id="_-f-_wJ50EeS4lKgHfRbzDA" name=" "/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_9iSd4J5zEeS4lKgHfRbzDA" name="" memberEnd="_9iSd4Z5zEeS4lKgHfRbzDA _9iSd5J5zEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_9iSd4Z5zEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_9iSd4J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9iSd4p5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9iSd455zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_9iSd5J5zEeS4lKgHfRbzDA" name="cadastrar gabarito oficial" type="_3IrQcJ5zEeS4lKgHfRbzDA" association="_9iSd4J5zEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9iSd5Z5zEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9iSd5p5zEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_AoKCoJ50EeS4lKgHfRbzDA" name="Departamento de Resultados"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_JMA6EJ50EeS4lKgHfRbzDA" name="Digitação de gabarito oficial">
+      <extend xmi:id="_QlqoMJ50EeS4lKgHfRbzDA" name="" visibility="public" extendedCase="_3IrQcJ5zEeS4lKgHfRbzDA" extensionLocation="_-f-_wJ50EeS4lKgHfRbzDA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jwk94J50EeS4lKgHfRbzDA" name="" memberEnd="_jwk94Z50EeS4lKgHfRbzDA _jwk95J50EeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_jwk94Z50EeS4lKgHfRbzDA" name="departamento de Resultados" type="_AoKCoJ50EeS4lKgHfRbzDA" association="_jwk94J50EeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jwk94p50EeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jwk94550EeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_jwk95J50EeS4lKgHfRbzDA" name="digitação de gabarito oficial" type="_JMA6EJ50EeS4lKgHfRbzDA" association="_jwk94J50EeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jwk95Z50EeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jwk95p50EeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_l_uWAJ50EeS4lKgHfRbzDA" name="Supervisor"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qUmrkJ50EeS4lKgHfRbzDA" name="Lançar gabarito dos candidatos">
+      <extend xmi:id="_658GIJ50EeS4lKgHfRbzDA" name="Extend1" extendedCase="_0KMQoJ50EeS4lKgHfRbzDA" extensionLocation="_9VBBcJ50EeS4lKgHfRbzDA"/>
+      <extensionPoint xmi:id="_D5HAkJ51EeS4lKgHfRbzDA" name=" "/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_u1FNIJ50EeS4lKgHfRbzDA" name="" memberEnd="_u1FNIZ50EeS4lKgHfRbzDA _u1FNJJ50EeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_u1FNIZ50EeS4lKgHfRbzDA" name="lançar gabarito dos candidatos" type="_qUmrkJ50EeS4lKgHfRbzDA" association="_u1FNIJ50EeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u1FNIp50EeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u1FNI550EeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_u1FNJJ50EeS4lKgHfRbzDA" name="departamento de Resultados" type="_AoKCoJ50EeS4lKgHfRbzDA" association="_u1FNIJ50EeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u1FNJZ50EeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u1FNJp50EeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_wCzkgJ50EeS4lKgHfRbzDA" name="" memberEnd="_wCzkgZ50EeS4lKgHfRbzDA _wCzkhJ50EeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_wCzkgZ50EeS4lKgHfRbzDA" name="lançar gabarito dos candidatos" type="_qUmrkJ50EeS4lKgHfRbzDA" association="_wCzkgJ50EeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wCzkgp50EeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wCzkg550EeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_wCzkhJ50EeS4lKgHfRbzDA" name="supervisor" type="_l_uWAJ50EeS4lKgHfRbzDA" association="_wCzkgJ50EeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wCzkhZ50EeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wCzkhp50EeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0KMQoJ50EeS4lKgHfRbzDA" name="Digitação de gabarito">
+      <extend xmi:id="_D5tdgJ51EeS4lKgHfRbzDA" name="Extend1" extendedCase="_qUmrkJ50EeS4lKgHfRbzDA" extensionLocation="_D5HAkJ51EeS4lKgHfRbzDA">
+        <condition xmi:id="_D5tdgZ51EeS4lKgHfRbzDA" constrainedElement="_D5tdgJ51EeS4lKgHfRbzDA">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_D5tdgp51EeS4lKgHfRbzDA">
+            <body> </body>
+          </specification>
+        </condition>
+      </extend>
+      <extensionPoint xmi:id="_65WQQJ50EeS4lKgHfRbzDA" name="1"/>
+      <extensionPoint xmi:id="_9VBBcJ50EeS4lKgHfRbzDA" name=" "/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_b3vdUJ8MEeS4lKgHfRbzDA" name="" memberEnd="_b3vdUZ8MEeS4lKgHfRbzDA _b3vdVJ8MEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_b3vdUZ8MEeS4lKgHfRbzDA" name="departamento de Resultados" type="_AoKCoJ50EeS4lKgHfRbzDA" association="_b3vdUJ8MEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b3vdUp8MEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b3vdU58MEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_b3vdVJ8MEeS4lKgHfRbzDA" name="digitação de gabarito" type="_0KMQoJ50EeS4lKgHfRbzDA" association="_b3vdUJ8MEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b3vdVZ8MEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b3vdVp8MEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_p1GwEJ8MEeS4lKgHfRbzDA" name="Realizar correção preliminar"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_sICcAJ8MEeS4lKgHfRbzDA" name="" memberEnd="_sICcAZ8MEeS4lKgHfRbzDA _sICcBJ8MEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_sICcAZ8MEeS4lKgHfRbzDA" name="departamento de Resultados" type="_AoKCoJ50EeS4lKgHfRbzDA" association="_sICcAJ8MEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sICcAp8MEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sICcA58MEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_sICcBJ8MEeS4lKgHfRbzDA" name="realizar correção preliminar" type="_p1GwEJ8MEeS4lKgHfRbzDA" association="_sICcAJ8MEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sICcBZ8MEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sICcBp8MEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vHrc8J8MEeS4lKgHfRbzDA" name="Cadastrar recursos"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xJ7BgJ8MEeS4lKgHfRbzDA" name="" memberEnd="_xJ7BgZ8MEeS4lKgHfRbzDA _xJ7BhJ8MEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_xJ7BgZ8MEeS4lKgHfRbzDA" name="departamento de Resultados" type="_AoKCoJ50EeS4lKgHfRbzDA" association="_xJ7BgJ8MEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xJ7Bgp8MEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xJ7Bg58MEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_xJ7BhJ8MEeS4lKgHfRbzDA" name="cadastrar recursos" type="_vHrc8J8MEeS4lKgHfRbzDA" association="_xJ7BgJ8MEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xJ7BhZ8MEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xJ7Bhp8MEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DD4FoJ8NEeS4lKgHfRbzDA" name="Alterar gabarito oficial após recurso"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_GK9yYJ8NEeS4lKgHfRbzDA" name="" memberEnd="_GK9yYZ8NEeS4lKgHfRbzDA _GK9yZJ8NEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_GK9yYZ8NEeS4lKgHfRbzDA" name="departamento de Resultados" type="_AoKCoJ50EeS4lKgHfRbzDA" association="_GK9yYJ8NEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GK9yYp8NEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GK9yY58NEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_GK9yZJ8NEeS4lKgHfRbzDA" name="alterar gabarito oficial após recurso" type="_DD4FoJ8NEeS4lKgHfRbzDA" association="_GK9yYJ8NEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GK9yZZ8NEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GK9yZp8NEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_H1NtsJ8NEeS4lKgHfRbzDA" name="Realizar correção após recursos"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_KR1hIJ8NEeS4lKgHfRbzDA" name="" memberEnd="_KR1hIZ8NEeS4lKgHfRbzDA _KR1hJJ8NEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_KR1hIZ8NEeS4lKgHfRbzDA" name="departamento de Resultados" type="_AoKCoJ50EeS4lKgHfRbzDA" association="_KR1hIJ8NEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KR1hIp8NEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KR1hI58NEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_KR1hJJ8NEeS4lKgHfRbzDA" name="realizar correção após recursos" type="_H1NtsJ8NEeS4lKgHfRbzDA" association="_KR1hIJ8NEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KR1hJZ8NEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KR1hJp8NEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MlXC8J8NEeS4lKgHfRbzDA" name="Emitir listagem de candidatos x locais de provas"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Xcin4J8NEeS4lKgHfRbzDA" name="" memberEnd="_Xcin4Z8NEeS4lKgHfRbzDA _Xcin5J8NEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_Xcin4Z8NEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_Xcin4J8NEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Xcin4p8NEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Xcin458NEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_Xcin5J8NEeS4lKgHfRbzDA" name="emitir listagem de candidatos x locais de provas" type="_MlXC8J8NEeS4lKgHfRbzDA" association="_Xcin4J8NEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Xcin5Z8NEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Xcin5p8NEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_b3-RYJ8NEeS4lKgHfRbzDA" name="Emitir relação candidato/vaga"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_4tuUsJ8NEeS4lKgHfRbzDA" name="" memberEnd="_4tuUsZ8NEeS4lKgHfRbzDA _4tuUtJ8NEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_4tuUsZ8NEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_4tuUsJ8NEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4tuUsp8NEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4tuUs58NEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_4tuUtJ8NEeS4lKgHfRbzDA" name="emitir relação candidato/vaga" type="_b3-RYJ8NEeS4lKgHfRbzDA" association="_4tuUsJ8NEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4tuUtZ8NEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4tuUtp8NEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Digs8J8OEeS4lKgHfRbzDA" name="Emitir cartão de confirmação de candidato"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_I0ot4J8OEeS4lKgHfRbzDA" name="" memberEnd="_I0ot4Z8OEeS4lKgHfRbzDA _I0ot5J8OEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_I0ot4Z8OEeS4lKgHfRbzDA" name="departamento de Seleção" type="_bQI4wJ5yEeS4lKgHfRbzDA" association="_I0ot4J8OEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I0ot4p8OEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I0ot458OEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_I0ot5J8OEeS4lKgHfRbzDA" name="emitir cartão de confirmação de candidato" type="_Digs8J8OEeS4lKgHfRbzDA" association="_I0ot4J8OEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I0ot5Z8OEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I0ot5p8OEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aghEUJ8PEeS4lKgHfRbzDA" name="Listar gabarito oficial das provas"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dcbb0J8PEeS4lKgHfRbzDA" name="" memberEnd="_dcbb0Z8PEeS4lKgHfRbzDA _dcbb1J8PEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_dcbb0Z8PEeS4lKgHfRbzDA" name="departamento de Resultados" type="_AoKCoJ50EeS4lKgHfRbzDA" association="_dcbb0J8PEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dcbb0p8PEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dcbb058PEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_dcbb1J8PEeS4lKgHfRbzDA" name="listar gabarito oficial das provas" type="_aghEUJ8PEeS4lKgHfRbzDA" association="_dcbb0J8PEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dcbb1Z8PEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dcbb1p8PEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ktEX4J8PEeS4lKgHfRbzDA" name="Listar resultado parcial das provas (sem classificação)"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pIgBYJ8PEeS4lKgHfRbzDA" name="" memberEnd="_pIgBYZ8PEeS4lKgHfRbzDA _pIgBZJ8PEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_pIgBYZ8PEeS4lKgHfRbzDA" name="departamento de Resultados" type="_AoKCoJ50EeS4lKgHfRbzDA" association="_pIgBYJ8PEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pIgBYp8PEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pIgBY58PEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_pIgBZJ8PEeS4lKgHfRbzDA" name="listar resultado parcial das provas (sem classificação)" type="_ktEX4J8PEeS4lKgHfRbzDA" association="_pIgBYJ8PEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pIgBZZ8PEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pIgBZp8PEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_uJVeAJ8PEeS4lKgHfRbzDA" name="Listar resultado final"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_v36fsJ8PEeS4lKgHfRbzDA" name="" memberEnd="_v36fsZ8PEeS4lKgHfRbzDA _v36ftJ8PEeS4lKgHfRbzDA">
+      <ownedEnd xmi:id="_v36fsZ8PEeS4lKgHfRbzDA" name="departamento de Resultados" type="_AoKCoJ50EeS4lKgHfRbzDA" association="_v36fsJ8PEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v36fsp8PEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v36fs58PEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_v36ftJ8PEeS4lKgHfRbzDA" name="listar resultado final" type="_uJVeAJ8PEeS4lKgHfRbzDA" association="_v36fsJ8PEeS4lKgHfRbzDA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v36ftZ8PEeS4lKgHfRbzDA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v36ftp8PEeS4lKgHfRbzDA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

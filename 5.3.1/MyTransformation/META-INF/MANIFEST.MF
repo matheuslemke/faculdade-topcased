@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Acceleo MyTransformation Module Runtime Plug-in
+Bundle-SymbolicName: MyTransformation
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: MyTransformation.Activator
+Bundle-Vendor: Eclipse Modeling Project
+Require-Bundle: org.eclipse.core.runtime, 
+ org.topcased.sysml, 
+ org.eclipse.uml2.uml, 
+ org.eclipse.papyrus.sysml, 
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.ecore.xmi,
+ org.eclipse.ocl,
+ org.eclipse.ocl.ecore,
+ org.eclipse.acceleo.common;bundle-version="3.2.1",
+ org.eclipse.acceleo.parser;bundle-version="3.2.1";resolution:=optional,
+ org.eclipse.acceleo.model;bundle-version="3.2.1",
+ org.eclipse.acceleo.profiler;bundle-version="3.2.1",
+ org.eclipse.acceleo.engine;bundle-version="3.2.1",
+ com.google.guava;bundle-version="10.0.1"
+Bundle-RequiredExecutionEnvironment: jre1.8.0_31
+Bundle-ActivationPolicy: lazy
+Eclipse-LazyStart: true
+Export-Package: MyTransformation.main
+
